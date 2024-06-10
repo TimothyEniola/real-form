@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="Create-account-form">
+        <div class="title">
+          <h2>Create Account</h2>
+        </div>
+        <!-- Name -->
+        <div class="input-group">
+          <label for="username">Name</label>
+          <input type="text" id="username" placeholder="Name" name="username" />
+
+          <i class="fa-solid fa-check"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <p>Error Message</p>
+        </div>
+
+        <!-- E-mail -->
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="E-mail" name="email" />
+
+          <i class="fa-solid fa-check"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <p>Error Message</p>
+        </div>
+
+        <!-- Password -->
+        <div class="input-group">
+          <label for="Password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            name="password" />
+
+          <i class="fa-solid fa-check"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <p>Error Message</p>
+        </div>
+
+        <!-- Confirm Password -->
+
+        <div class="input-group">
+          <label for="Password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirmpassword"
+            placeholder="Password"
+            name="confirmpassword" />
+          <i class="fa-solid fa-check"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <p>Error Message</p>
+        </div>
+        <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
